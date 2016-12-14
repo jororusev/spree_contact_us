@@ -1,0 +1,21 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+bg:
+  activemodel:
+    attributes:
+      spree/contact_us/contact:
+        name: "Име"
+        email: "Email"
+        message: "Съобщение"
+        subject: "Тема"
+  spree:
+    contact_us_title: "Свържете се с нас"
+    sent_by_contact_form: "Изпратена контактна форма от %{email}"
+    sent_by_name: "Изпратено от %{name} , Email за отговор %{email}"
+    subject: "Съобщение от %{email}"
+    submit: "Изпрати"
+
+    contact_us:
+      notices:
+        success: "Формата за контакт беше успешно изпратена."
